@@ -3,28 +3,28 @@
 import { Project } from '@/types';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import {
-    FiAlertCircle,
-    FiArrowLeft,
-    FiCheckCircle,
-    FiChevronDown,
-    FiChevronUp,
-    FiCopy,
-    FiEdit2,
-    FiExternalLink,
-    FiFilter,
-    FiFolder,
-    FiGithub,
-    FiGrid,
-    FiImage,
-    FiList,
-    FiPlus,
-    FiSave,
-    FiSearch,
-    FiStar,
-    FiTrash2,
-    FiX
+  FiAlertCircle,
+  FiArrowLeft,
+  FiCheckCircle,
+  FiChevronDown,
+  FiChevronUp,
+  FiCopy,
+  FiEdit2,
+  FiExternalLink,
+  FiFilter,
+  FiFolder,
+  FiGithub,
+  FiGrid,
+  FiImage,
+  FiList,
+  FiPlus,
+  FiSave,
+  FiSearch,
+  FiStar,
+  FiTrash2,
+  FiX
 } from 'react-icons/fi';
 
 export default function ProjectsAdmin() {
