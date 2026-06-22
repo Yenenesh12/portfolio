@@ -15,6 +15,7 @@ async function getData() {
     process.env.NODE_ENV === 'development' ? 'http' : 'https';
 
   const baseUrl = `${protocol}://${host}`;
+  console.log(baseUrl, host, protocol);
 
   try {
     const [hero, about, skills, projects, experience, education] =
